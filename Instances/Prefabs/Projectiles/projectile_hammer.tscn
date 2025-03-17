@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://buj50cuceg2tj"]
+
+[ext_resource type="PackedScene" uid="uid://s4a6vmjiv55t" path="res://Instances/Prefabs/Projectiles/hammer_bro_hammer.tscn" id="1_h8xpd"]
+[ext_resource type="Script" uid="uid://c7oakcoe1h6tn" path="res://Scripts/Projectile/PlayerHammerProjectile.gd" id="2_y88u8"]
+
+[node name="ProjectileHammer" instance=ExtResource("1_h8xpd")]
+script = ExtResource("2_y88u8")
+can_damage_enemies = true
+metadata/_custom_type_script = "uid://bqdfwdbvl65wk"

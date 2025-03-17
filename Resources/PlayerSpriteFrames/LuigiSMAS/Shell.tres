@@ -327,29 +327,29 @@ region = Rect2(288, 0, 32, 32)
 atlas = ExtResource("2_f3wfp")
 region = Rect2(288, 96, 32, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_h5elt"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_wikag"]
 atlas = ExtResource("2_f3wfp")
-region = Rect2(320, 256, 32, 32)
+region = Rect2(64, 288, 32, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_npod5"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_4fg2s"]
 atlas = ExtResource("2_f3wfp")
-region = Rect2(352, 256, 32, 32)
+region = Rect2(96, 288, 32, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_k5fky"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_5pru8"]
 atlas = ExtResource("2_f3wfp")
-region = Rect2(384, 256, 32, 32)
+region = Rect2(128, 288, 32, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_7f0wf"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_vnvvl"]
 atlas = ExtResource("2_f3wfp")
-region = Rect2(224, 256, 32, 32)
+region = Rect2(480, 256, 32, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_kxomt"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_7k2jt"]
 atlas = ExtResource("2_f3wfp")
-region = Rect2(256, 256, 32, 32)
+region = Rect2(0, 288, 32, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_toieq"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_0s7rc"]
 atlas = ExtResource("2_f3wfp")
-region = Rect2(288, 256, 32, 32)
+region = Rect2(32, 288, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pvbqq"]
 atlas = ExtResource("2_f3wfp")
@@ -1014,13 +1014,13 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_h5elt")
+"texture": SubResource("AtlasTexture_wikag")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_npod5")
+"texture": SubResource("AtlasTexture_4fg2s")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_k5fky")
+"texture": SubResource("AtlasTexture_5pru8")
 }],
 "loop": true,
 "name": &"LFlutterFall",
@@ -1028,13 +1028,13 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_7f0wf")
+"texture": SubResource("AtlasTexture_vnvvl")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_kxomt")
+"texture": SubResource("AtlasTexture_7k2jt")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_toieq")
+"texture": SubResource("AtlasTexture_0s7rc")
 }],
 "loop": true,
 "name": &"LFlutterJump",

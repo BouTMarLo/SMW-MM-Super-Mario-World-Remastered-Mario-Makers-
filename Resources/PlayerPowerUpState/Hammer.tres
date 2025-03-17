@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="PlayerPowerUpState" load_steps=5 format=3 uid="uid://dhxlpwqkolxcp"]
+
+[ext_resource type="Texture2D" uid="uid://cuvrcubi08rcd" path="res://Assets/Sprites/Items/LittleDude.png" id="1_ufa2q"]
+[ext_resource type="Resource" uid="uid://b8cl3invnv0aj" path="res://Resources/PlayerPowerUpState/Big.tres" id="2_bdmlh"]
+[ext_resource type="Script" uid="uid://c7swbo0kwhs4n" path="res://Scripts/Classes/PowerUps/Hammer.gd" id="3_bdmlh"]
+[ext_resource type="Script" uid="uid://drj8okmqlf5y6" path="res://Scripts/Classes/Resources/PlayerPowerUpStateResource.gd" id="4_6uura"]
+
+[resource]
+script = ExtResource("4_6uura")
+state_name = "Hammer"
+sprite_frame_name = "Fire"
+power_script = ExtResource("3_bdmlh")
+states = Array[Script]([])
+hitbox_size = "Regular"
+transform_animation = false
+power_down = ExtResource("2_bdmlh")
+power_tier = 4
+item_sprite = ExtResource("1_ufa2q")
+can_water_damage = false
+technical_swim = false
+sprite_extras = Array[PackedScene]([])

@@ -17,7 +17,9 @@ const characters := [
 	"LuigiSMAS",
 	"LuigiSMA2",
 	"Toad",
-	"Toadette"
+	"Toadette",
+	"Yellow",
+	"Mint"
 ]
 
 func enter(_msg := {}) -> void:

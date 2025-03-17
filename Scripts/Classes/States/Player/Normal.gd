@@ -270,7 +270,7 @@ func handle_slopes() -> void:
 	if current_slope_height == Player.Slopes.VERY_STEEP:
 		handle_sliding()
 	
-	if is_on_slope() and not player.sliding and player.get_slope_height(player.get_floor_normal()) >= Player.Slopes.STEEP:
+	if is_on_slope() and not player.sliding and player.get_slope_height(player.get_floor_normal()) >= Player.Slopes.STEEP and player.power_state.state_name != "Hammer":
 		player.sliding = Input.is_action_pressed(CoopManager.get_player_input_str("move_down", player.player_id)) and not player.holding and not player.carrying
 	elif abs(player.velocity.x) < 10 and player.sliding:
 		player.sliding = false

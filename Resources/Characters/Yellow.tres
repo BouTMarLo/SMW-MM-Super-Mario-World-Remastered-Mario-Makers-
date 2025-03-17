@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="CharacterResource" load_steps=13 format=3 uid="uid://bn12c3h6comdh"]
+
+[ext_resource type="Texture2D" uid="uid://cjf28uhnsxedn" path="res://Assets/Sprites/Characters/Yellow/HUDIcon.png" id="1_6wv7p"]
+[ext_resource type="Texture2D" uid="uid://cvajyarcn0cru" path="res://Assets/Sprites/Characters/Yellow/HUDTitle.png" id="2_1brjp"]
+[ext_resource type="PackedScene" uid="uid://cqw1qs0bt5s4o" path="res://Instances/Prefabs/Player.tscn" id="3_j3lub"]
+[ext_resource type="Texture2D" uid="uid://dgbo3t71wv3bn" path="res://Assets/Sprites/Characters/Toad/FireworkMask.png" id="4_yrjhu"]
+[ext_resource type="Texture2D" uid="uid://cdu26cn1b0da4" path="res://Assets/Sprites/Characters/Toad/Ending.png" id="5_yfsrt"]
+[ext_resource type="SpriteFrames" uid="uid://6ef0hopfef6p" path="res://Resources/PlayerSpriteFrames/Toad/Map.tres" id="6_04eor"]
+[ext_resource type="Script" uid="uid://bnrkbpmp03s5q" path="res://Scripts/Classes/Resources/CharacterResource.gd" id="7_1hhwq"]
+[ext_resource type="Texture2D" uid="uid://dsoo85ij21eiq" path="res://Assets/Sprites/Characters/Yellow/Big.png" id="8_j3lub"]
+[ext_resource type="AudioStream" uid="uid://c5t4v2hmyvxw1" path="res://Assets/Audio/SFX/coin.wav" id="9_mb1us"]
+[ext_resource type="Resource" uid="uid://ceqaqufmindu" path="res://Resources/SoundLibraries/Default.tres" id="10_ds2fk"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hefku"]
+atlas = ExtResource("8_j3lub")
+region = Rect2(384, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o0fi0"]
+atlas = ExtResource("8_j3lub")
+region = Rect2(224, 64, 32, 32)
+
+[resource]
+script = ExtResource("7_1hhwq")
+character_name = "Yellow"
+base_character_scene = ExtResource("3_j3lub")
+char_colour = Color(0.972549, 0.752941, 0, 1)
+custom_properties = {
+"PhysicsStyle": "Toad"
+}
+sound_library = ExtResource("10_ds2fk")
+character_id = 4
+power_sprite_extra_offsets = {
+"Cape": Vector2(0, 0),
+"PropellerBlade": Vector2(1, 1)
+}
+power_sprite_extra_replaces = {}
+power_state_script_replace = {}
+HUDTitle = ExtResource("2_1brjp")
+HUDLetter = ExtResource("1_6wv7p")
+ending_portrait = ExtResource("5_yfsrt")
+ending_firework_mask = ExtResource("4_yrjhu")
+map_sprites = ExtResource("6_04eor")
+selection_idle = SubResource("AtlasTexture_hefku")
+selection_selected = SubResource("AtlasTexture_o0fi0")
+selection_sfx = ExtResource("9_mb1us")
