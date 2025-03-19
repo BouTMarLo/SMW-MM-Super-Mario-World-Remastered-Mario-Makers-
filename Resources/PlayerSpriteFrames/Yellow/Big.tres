@@ -1,9 +1,9 @@
-[gd_resource type="SpriteFrames" load_steps=130 format=3]
+[gd_resource type="SpriteFrames" load_steps=130 format=3 uid="uid://vk6ep00mh3dg"]
 
-[ext_resource type="Texture2D" path="res://Assets/Sprites/Characters/Yellow/FlyingSheet.png" id="2_o2i8j"]
-[ext_resource type="Texture2D" path="res://Assets/Sprites/Characters/Toad/Big.png" id="3_1x5uf"]
-[ext_resource type="Texture2D" path="res://Assets/Sprites/Characters/Yellow/Big.png" id="3_h0434"]
-[ext_resource type="Texture2D" path="res://Assets/Sprites/Characters/Toad/Small.png" id="4_hntgu"]
+[ext_resource type="Texture2D" uid="uid://dnfmcap11lh2" path="res://Assets/Sprites/Characters/Yellow/FlyingSheet.png" id="2_o2i8j"]
+[ext_resource type="Texture2D" uid="uid://dapju4fhv02s3" path="res://Assets/Sprites/Characters/Toad/Big.png" id="3_1x5uf"]
+[ext_resource type="Texture2D" uid="uid://dsoo85ij21eiq" path="res://Assets/Sprites/Characters/Yellow/Big.png" id="3_h0434"]
+[ext_resource type="Texture2D" uid="uid://dwmpa2vif3hye" path="res://Assets/Sprites/Characters/Toad/Small.png" id="4_hntgu"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8674j"]
 atlas = ExtResource("3_h0434")

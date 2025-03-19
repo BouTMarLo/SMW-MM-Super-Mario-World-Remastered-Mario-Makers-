@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="CharacterResource" load_steps=13 format=3 uid="uid://ccfd6t5xwun23"]
+
+[ext_resource type="Texture2D" uid="uid://b2084jqi4n35n" path="res://Assets/Sprites/Characters/Mario/HUDIcon.png" id="1_hfgpt"]
+[ext_resource type="Texture2D" uid="uid://b5fj8ug7uxm5e" path="res://Assets/Sprites/Characters/Martin/HUDTitle.png" id="2_hfgpt"]
+[ext_resource type="PackedScene" uid="uid://cqw1qs0bt5s4o" path="res://Instances/Prefabs/Player.tscn" id="3_mlubf"]
+[ext_resource type="Texture2D" uid="uid://dtv5mo1q1k3ts" path="res://Assets/Sprites/Characters/Martin/FireworkMask.png" id="4_ujn3c"]
+[ext_resource type="Texture2D" uid="uid://dbkkt3ti8w37r" path="res://Assets/Sprites/Characters/Mario/Ending.png" id="5_iu0yp"]
+[ext_resource type="SpriteFrames" uid="uid://cm5pqpxelo7nw" path="res://Resources/PlayerSpriteFrames/Martin/Map.tres" id="6_hfgpt"]
+[ext_resource type="Script" uid="uid://bnrkbpmp03s5q" path="res://Scripts/Classes/Resources/CharacterResource.gd" id="7_2kusy"]
+[ext_resource type="Texture2D" uid="uid://os647nrdxk8u" path="res://Assets/Sprites/Characters/Martin/Big.png" id="8_mlubf"]
+[ext_resource type="AudioStream" uid="uid://c5t4v2hmyvxw1" path="res://Assets/Audio/SFX/coin.wav" id="9_frw17"]
+[ext_resource type="Resource" uid="uid://ceqaqufmindu" path="res://Resources/SoundLibraries/Default.tres" id="10_yxvep"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2krvb"]
+atlas = ExtResource("8_mlubf")
+region = Rect2(384, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fyjcq"]
+atlas = ExtResource("8_mlubf")
+region = Rect2(128, 64, 32, 32)
+
+[resource]
+script = ExtResource("7_2kusy")
+character_name = "Martin"
+base_character_scene = ExtResource("3_mlubf")
+char_colour = Color(0.984314, 0.411765, 0.054902, 1)
+custom_properties = {
+"PhysicsStyle": "Mario"
+}
+sound_library = ExtResource("10_yxvep")
+character_id = 5
+power_sprite_extra_offsets = {
+"Cape": Vector2(0, 0),
+"PropellerBlade": Vector2(0, 0)
+}
+power_sprite_extra_replaces = {}
+power_state_script_replace = {}
+HUDTitle = ExtResource("2_hfgpt")
+HUDLetter = ExtResource("1_hfgpt")
+ending_portrait = ExtResource("5_iu0yp")
+ending_firework_mask = ExtResource("4_ujn3c")
+map_sprites = ExtResource("6_hfgpt")
+selection_idle = SubResource("AtlasTexture_2krvb")
+selection_selected = SubResource("AtlasTexture_fyjcq")
+selection_sfx = ExtResource("9_frw17")

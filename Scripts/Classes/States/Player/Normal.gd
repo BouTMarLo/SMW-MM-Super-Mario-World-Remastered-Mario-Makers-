@@ -30,7 +30,7 @@ var can_move := true
 var can_yoshi_stomp := false
 
 const walk_speed := 75.0
-const move_speed_modifiers := {"Mario": 1, "Luigi": 0.95, "Toad": 1.25, "Toadette": 1.25}
+const move_speed_modifiers := {"Mario": 1, "Luigi": 0.95, "Toad": 1.25, "Toadette": 1.25, "Nia": 0.95}
 
 # When doing slope data structures: first index is ALWAYS moving down the slope. Second index is moving up slope.
 const walk_slope_speeds := {Player.Slopes.GRADUAL: [75, 75],
@@ -74,16 +74,16 @@ const spin_jump_incr := 7.5
 const jump_height := 300.0
 const spin_jump_height := 266.25
 
-const gravity_modifiers := {"Mario": 1, "Luigi": 0.8, "Toad": 1.1, "Toadette": 1.1}
+const gravity_modifiers := {"Mario": 1, "Luigi": 0.8, "Toad": 1.1, "Toadette": 1.1, "Nia": 1}
 
 const accel := 5.265
-const accel_modifiers := {"Mario": 1, "Luigi": 0.7, "Toad": 1, "Toadette": 1}
+const accel_modifiers := {"Mario": 1, "Luigi": 0.7, "Toad": 1, "Toadette": 1, "Nia": 1}
 const decel := 3.0
 
 const walk_skid := 9.375
 const run_skid := 18.75
 
-const skid_modifiers := {"Mario": 1, "Luigi": 0.5, "Toad": 1, "Toadette": 1}
+const skid_modifiers := {"Mario": 1, "Luigi": 0.5, "Toad": 1, "Toadette": 1, "Nia": 2}
 
 const DASH_START = preload("res://Instances/Particles/Player/dash_start.tscn")
 
@@ -94,7 +94,7 @@ const air_back_accel := 9.375
 const air_run_back_accel := 18.75
 
 const max_fall_speed := 240.0
-const max_fall_speed_modifiers := {"Mario": 1, "Luigi": 0.9, "Toad": 1.1, "Toadette": 1.1}
+const max_fall_speed_modifiers := {"Mario": 1, "Luigi": 0.9, "Toad": 1.1, "Toadette": 1.1, "Nia": 1}
 
 const min_slope_angle_slip := 45.0
 

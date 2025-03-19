@@ -28,7 +28,7 @@ custom_properties = {
 "PhysicsStyle": "Toad"
 }
 sound_library = ExtResource("10_7afdl")
-character_id = 5
+character_id = 7
 power_sprite_extra_offsets = {
 "Cape": Vector2(0, 0),
 "PropellerBlade": Vector2(1, 1)

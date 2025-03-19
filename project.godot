@@ -27,9 +27,9 @@ config/use_custom_user_dir=true
 config/custom_user_dir_name="SuperMarioWorldRemastered"
 config/features=PackedStringArray("4.4")
 boot_splash/show_image=false
-boot_splash/image="res://Assets/Sprites/UI/Splash.png"
 boot_splash/fullsize=false
 boot_splash/use_filter=false
+boot_splash/image="res://Assets/Sprites/UI/Splash.png"
 config/icon="res://icon.png"
 
 [autoload]

@@ -6,7 +6,7 @@ var exiting := false
 
 var physics_style := ""
 var wall_hit = false
-const move_speed_modifiers := {"Mario": 1, "Luigi": 0.95, "Toad": 1.25, "Toadette": 1.25}
+const move_speed_modifiers := {"Mario": 1, "Luigi": 0.95, "Toad": 1.25, "Toadette": 1.25, "Nia": 1.25}
 
 func enter(_msg := {}) -> void:
 	player.can_dive = false

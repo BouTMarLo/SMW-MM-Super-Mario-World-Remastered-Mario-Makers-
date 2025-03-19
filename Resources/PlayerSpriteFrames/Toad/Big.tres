@@ -1,8 +1,8 @@
-[gd_resource type="SpriteFrames" load_steps=129 format=3]
+[gd_resource type="SpriteFrames" load_steps=129 format=3 uid="uid://dkvmt8hsj6bmc"]
 
-[ext_resource type="Texture2D" path="res://Assets/Sprites/Characters/Toad/FlyingSheet.png" id="1_0u80m"]
-[ext_resource type="Texture2D" path="res://Assets/Sprites/Characters/Toad/Big.png" id="2_itril"]
-[ext_resource type="Texture2D" path="res://Assets/Sprites/Characters/Toad/Small.png" id="3_jv3wj"]
+[ext_resource type="Texture2D" uid="uid://dvuitdccul8dd" path="res://Assets/Sprites/Characters/Toad/FlyingSheet.png" id="1_0u80m"]
+[ext_resource type="Texture2D" uid="uid://dapju4fhv02s3" path="res://Assets/Sprites/Characters/Toad/Big.png" id="2_itril"]
+[ext_resource type="Texture2D" uid="uid://dwmpa2vif3hye" path="res://Assets/Sprites/Characters/Toad/Small.png" id="3_jv3wj"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_cnwds"]
 atlas = ExtResource("2_itril")

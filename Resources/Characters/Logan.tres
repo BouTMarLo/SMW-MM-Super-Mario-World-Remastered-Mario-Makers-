@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="CharacterResource" load_steps=13 format=3 uid="uid://jkpibcegiswr"]
+
+[ext_resource type="Texture2D" uid="uid://bvednm04eww14" path="res://Assets/Sprites/Characters/Logan/HUDIcon.png" id="1_if4h4"]
+[ext_resource type="Texture2D" uid="uid://dt67fqpt1ipeb" path="res://Assets/Sprites/Characters/Logan/HUDTitle.png" id="2_c5nsu"]
+[ext_resource type="PackedScene" uid="uid://cqw1qs0bt5s4o" path="res://Instances/Prefabs/Player.tscn" id="3_hp3yg"]
+[ext_resource type="Texture2D" uid="uid://bx1dflaohls6b" path="res://Assets/Sprites/Characters/Logan/FireworkMask.png" id="5_hp3yg"]
+[ext_resource type="Texture2D" uid="uid://cdbd02v1wfms3" path="res://Assets/Sprites/Characters/Logan/Ending.png" id="6_2xti7"]
+[ext_resource type="SpriteFrames" uid="uid://coqespul514fd" path="res://Resources/PlayerSpriteFrames/Luigi/Map.tres" id="7_ho5co"]
+[ext_resource type="Script" uid="uid://bnrkbpmp03s5q" path="res://Scripts/Classes/Resources/CharacterResource.gd" id="8_67gp8"]
+[ext_resource type="Texture2D" uid="uid://uj38qxv0lt4y" path="res://Assets/Sprites/Characters/Logan/Big.png" id="8_y4mh1"]
+[ext_resource type="AudioStream" uid="uid://c5t4v2hmyvxw1" path="res://Assets/Audio/SFX/coin.wav" id="11_nhbd4"]
+[ext_resource type="Resource" uid="uid://ceqaqufmindu" path="res://Resources/SoundLibraries/Default.tres" id="12_q576l"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_if4h4"]
+atlas = ExtResource("8_y4mh1")
+region = Rect2(384, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_trnlo"]
+atlas = ExtResource("8_y4mh1")
+region = Rect2(128, 64, 32, 32.2)
+
+[resource]
+script = ExtResource("8_67gp8")
+character_name = "Logan"
+base_character_scene = ExtResource("3_hp3yg")
+char_colour = Color(0, 0.972549, 0, 1)
+custom_properties = {
+"PhysicsStyle": "Luigi"
+}
+sound_library = ExtResource("12_q576l")
+character_id = 6
+power_sprite_extra_offsets = {
+"Cape": Vector2(0, 0),
+"PropellerBlade": Vector2(0, -2)
+}
+power_sprite_extra_replaces = {}
+power_state_script_replace = {}
+HUDTitle = ExtResource("2_c5nsu")
+HUDLetter = ExtResource("1_if4h4")
+ending_portrait = ExtResource("6_2xti7")
+ending_firework_mask = ExtResource("5_hp3yg")
+map_sprites = ExtResource("7_ho5co")
+selection_idle = SubResource("AtlasTexture_if4h4")
+selection_selected = SubResource("AtlasTexture_trnlo")
+selection_sfx = ExtResource("11_nhbd4")

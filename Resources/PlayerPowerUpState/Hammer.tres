@@ -8,13 +8,13 @@
 [resource]
 script = ExtResource("4_6uura")
 state_name = "Hammer"
-sprite_frame_name = "Fire"
+sprite_frame_name = "Hammer"
 power_script = ExtResource("3_bdmlh")
 states = Array[Script]([])
 hitbox_size = "Regular"
 transform_animation = false
 power_down = ExtResource("2_bdmlh")
-power_tier = 4
+power_tier = 2
 item_sprite = ExtResource("1_ufa2q")
 can_water_damage = false
 technical_swim = false
