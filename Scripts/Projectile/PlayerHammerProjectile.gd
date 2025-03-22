@@ -32,7 +32,6 @@ func _on_hitbox_area_entered(area: Area2D) -> void:
 		if node.z_index_dependant:
 			if node.z_index != z_index:
 				return
-		node.damage()
+		node.die()
 		SoundManager.play_sfx(player.get_sfx("kick"), self)
 		ParticleManager.summon_particle(ParticleManager.PUFF_SPR, global_position)
-		self.queue_free()

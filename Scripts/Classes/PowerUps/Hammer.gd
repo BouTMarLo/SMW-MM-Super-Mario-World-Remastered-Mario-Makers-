@@ -31,7 +31,7 @@ func main(delta: float) -> void:
 	spin_fire_meter = clamp(spin_fire_meter, 0, 1)
 
 func throw_fire_ball(direction := 1) -> void:
-	if fireball_amount >= 4:
+	if fireball_amount >= 2:
 		return
 	if player.holding or player.carrying:
 		return
