@@ -74,10 +74,10 @@ const spin_jump_incr := 7.5
 const jump_height := 300.0
 const spin_jump_height := 266.25
 
-const gravity_modifiers := {"Mario": 1, "Luigi": 0.8, "Toad": 1.1, "Toadette": 1.1, "Nia": 1}
+const gravity_modifiers := {"Mario": 1, "Luigi": 0.8, "Toad": 1.1, "Toadette": 1.1, "Nia": 1.1}
 
 const accel := 5.265
-const accel_modifiers := {"Mario": 1, "Luigi": 0.7, "Toad": 1, "Toadette": 1, "Nia": 1}
+const accel_modifiers := {"Mario": 1, "Luigi": 0.7, "Toad": 1, "Toadette": 1, "Nia": 0.5}
 const decel := 3.0
 
 const walk_skid := 9.375

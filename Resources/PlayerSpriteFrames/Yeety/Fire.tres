@@ -1,6 +1,6 @@
 [gd_resource type="SpriteFrames" load_steps=124 format=3 uid="uid://blixdk33liu4v"]
 
-[ext_resource type="Texture2D" uid="uid://7ifm6tqmwwwf" path="res://Assets/Sprites/Characters/Yellow/Fire.png" id="1_n3tcc"]
+[ext_resource type="Texture2D" uid="uid://b6dgsctm3lmcs" path="res://Assets/Sprites/Characters/Yeety/Fire.png" id="1_n3tcc"]
 [ext_resource type="Texture2D" uid="uid://cyu1yqa0fgwfi" path="res://Assets/Sprites/Characters/Yellow/Small.png" id="2_iv8ev"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3fok4"]

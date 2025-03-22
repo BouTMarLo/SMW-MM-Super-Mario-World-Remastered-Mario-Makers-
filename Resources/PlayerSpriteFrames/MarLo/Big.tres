@@ -1,4 +1,4 @@
-[gd_resource type="SpriteFrames" load_steps=126 format=3 uid="uid://dmw0ikpiihvhc"]
+[gd_resource type="SpriteFrames" load_steps=127 format=3 uid="uid://dmw0ikpiihvhc"]
 
 [ext_resource type="Texture2D" uid="uid://bu6xnetpq6jvy" path="res://Assets/Sprites/Characters/MarLo/Big.png" id="1_4k75j"]
 [ext_resource type="Texture2D" uid="uid://cipm1a5lev26g" path="res://Assets/Sprites/Characters/MarLo/FlyingSheet.png" id="2_37f1o"]
@@ -260,21 +260,25 @@ region = Rect2(384, 0, 32, 32)
 atlas = ExtResource("1_4k75j")
 region = Rect2(320, 0, 32, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_xfdow"]
-atlas = ExtResource("1_4k75j")
-region = Rect2(448, 32, 32, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_ckesq"]
-atlas = ExtResource("1_4k75j")
-region = Rect2(480, 32, 32, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_7hkhi"]
-atlas = ExtResource("1_4k75j")
-region = Rect2(0, 64, 32, 32)
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_nj0uy"]
 atlas = ExtResource("1_4k75j")
 region = Rect2(32, 64, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4k75j"]
+atlas = ExtResource("1_4k75j")
+region = Rect2(224, 224, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_37f1o"]
+atlas = ExtResource("1_4k75j")
+region = Rect2(256, 224, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ymvba"]
+atlas = ExtResource("1_4k75j")
+region = Rect2(288, 224, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8lr75"]
+atlas = ExtResource("1_4k75j")
+region = Rect2(320, 224, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ab85i"]
 atlas = ExtResource("1_4k75j")
@@ -882,16 +886,19 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_xfdow")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_ckesq")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_7hkhi")
-}, {
-"duration": 1.0,
 "texture": SubResource("AtlasTexture_nj0uy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4k75j")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_37f1o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ymvba")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8lr75")
 }],
 "loop": true,
 "name": &"Flip",

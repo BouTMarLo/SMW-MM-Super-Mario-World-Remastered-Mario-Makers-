@@ -23,7 +23,7 @@ region = Rect2(128, 64, 32, 32.2)
 script = ExtResource("8_67gp8")
 character_name = "Logan"
 base_character_scene = ExtResource("3_hp3yg")
-char_colour = Color(0, 0.972549, 0, 1)
+char_colour = Color(0.105882, 0.603922, 0.27451, 1)
 custom_properties = {
 "PhysicsStyle": "Luigi"
 }

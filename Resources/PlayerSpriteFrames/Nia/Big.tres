@@ -1,8 +1,8 @@
 [gd_resource type="SpriteFrames" load_steps=129 format=3 uid="uid://c7eylhsn0oa24"]
 
-[ext_resource type="Texture2D" uid="uid://dapju4fhv02s3" path="res://Assets/Sprites/Characters/Toad/Big.png" id="1_h43wv"]
-[ext_resource type="Texture2D" uid="uid://dvuitdccul8dd" path="res://Assets/Sprites/Characters/Toad/FlyingSheet.png" id="2_jqhj7"]
-[ext_resource type="Texture2D" uid="uid://dwmpa2vif3hye" path="res://Assets/Sprites/Characters/Toad/Small.png" id="3_e65on"]
+[ext_resource type="Texture2D" uid="uid://bq68344ixwaq7" path="res://Assets/Sprites/Characters/Nia/Big.png" id="1_h43wv"]
+[ext_resource type="Texture2D" uid="uid://ni4k5exfg73u" path="res://Assets/Sprites/Characters/Nia/FlyingSheet.png" id="2_jqhj7"]
+[ext_resource type="Texture2D" uid="uid://dfu3yiaog6th" path="res://Assets/Sprites/Characters/Nia/Small.png" id="3_e65on"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_cnwds"]
 atlas = ExtResource("1_h43wv")

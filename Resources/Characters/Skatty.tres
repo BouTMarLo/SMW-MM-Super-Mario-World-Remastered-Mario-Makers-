@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="CharacterResource" load_steps=13 format=3 uid="uid://dftgpof6ps5y8"]
+
+[ext_resource type="Texture2D" uid="uid://cy4vwge7nkp5a" path="res://Assets/Sprites/Characters/Skatty/HUDIcon.png" id="1_80eik"]
+[ext_resource type="Texture2D" uid="uid://bnocnuyj5fmnu" path="res://Assets/Sprites/Characters/Skatty/HUDTitle.png" id="2_c56e2"]
+[ext_resource type="PackedScene" uid="uid://cqw1qs0bt5s4o" path="res://Instances/Prefabs/Player.tscn" id="3_2ab70"]
+[ext_resource type="Texture2D" uid="uid://ctv3gloigcrp1" path="res://Assets/Sprites/Characters/Skatty/FireworkMask.png" id="4_2ab70"]
+[ext_resource type="Texture2D" uid="uid://b5ky2oc7anjf0" path="res://Assets/Sprites/Characters/Skatty/Ending.png" id="5_p4r4d"]
+[ext_resource type="SpriteFrames" uid="uid://beodya8tpaggt" path="res://Resources/PlayerSpriteFrames/Skatty/Map.tres" id="6_80eik"]
+[ext_resource type="Script" uid="uid://bnrkbpmp03s5q" path="res://Scripts/Classes/Resources/CharacterResource.gd" id="7_ei213"]
+[ext_resource type="Texture2D" uid="uid://d4dh3w5xvbmuv" path="res://Assets/Sprites/Characters/Skatty/Big.png" id="8_q55bv"]
+[ext_resource type="AudioStream" uid="uid://c5t4v2hmyvxw1" path="res://Assets/Audio/SFX/coin.wav" id="9_w7o0x"]
+[ext_resource type="Resource" uid="uid://ceqaqufmindu" path="res://Resources/SoundLibraries/Default.tres" id="10_trtj4"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hefku"]
+atlas = ExtResource("8_q55bv")
+region = Rect2(384, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o0fi0"]
+atlas = ExtResource("8_q55bv")
+region = Rect2(224, 64, 32, 32)
+
+[resource]
+script = ExtResource("7_ei213")
+character_name = "Skatty"
+base_character_scene = ExtResource("3_2ab70")
+char_colour = Color(0.0705882, 0.105882, 0.172549, 1)
+custom_properties = {
+"PhysicsStyle": "Toad"
+}
+sound_library = ExtResource("10_trtj4")
+character_id = 13
+power_sprite_extra_offsets = {
+"Cape": Vector2(0, 0),
+"PropellerBlade": Vector2(1, 1)
+}
+power_sprite_extra_replaces = {}
+power_state_script_replace = {}
+HUDTitle = ExtResource("2_c56e2")
+HUDLetter = ExtResource("1_80eik")
+ending_portrait = ExtResource("5_p4r4d")
+ending_firework_mask = ExtResource("4_2ab70")
+map_sprites = ExtResource("6_80eik")
+selection_idle = SubResource("AtlasTexture_hefku")
+selection_selected = SubResource("AtlasTexture_o0fi0")
+selection_sfx = ExtResource("9_w7o0x")

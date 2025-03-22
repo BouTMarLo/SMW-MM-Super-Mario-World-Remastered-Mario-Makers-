@@ -1,0 +1,45 @@
+[gd_resource type="Resource" script_class="CharacterResource" load_steps=13 format=3 uid="uid://bsd8nheke025k"]
+
+[ext_resource type="Texture2D" uid="uid://b2084jqi4n35n" path="res://Assets/Sprites/Characters/Mario/HUDIcon.png" id="1_vksem"]
+[ext_resource type="Texture2D" uid="uid://ba65dunp68ehu" path="res://Assets/Sprites/Characters/Mario/HUDTitle.png" id="2_nc3d4"]
+[ext_resource type="PackedScene" uid="uid://cqw1qs0bt5s4o" path="res://Instances/Prefabs/Player.tscn" id="3_86bdr"]
+[ext_resource type="Texture2D" uid="uid://dc3sp5eo1nipw" path="res://Assets/Sprites/Characters/Mario/FireworkMask.png" id="4_lr13r"]
+[ext_resource type="Texture2D" uid="uid://dbkkt3ti8w37r" path="res://Assets/Sprites/Characters/Mario/Ending.png" id="5_uca12"]
+[ext_resource type="SpriteFrames" uid="uid://d124ylm0askxf" path="res://Resources/PlayerSpriteFrames/Mario/Map.tres" id="6_cxpqp"]
+[ext_resource type="Script" uid="uid://bnrkbpmp03s5q" path="res://Scripts/Classes/Resources/CharacterResource.gd" id="7_bbdv6"]
+[ext_resource type="Texture2D" uid="uid://d0dr5ew28hwp4" path="res://Assets/Sprites/Characters/Murioz/Big.png" id="8_vksem"]
+[ext_resource type="AudioStream" uid="uid://c5t4v2hmyvxw1" path="res://Assets/Audio/SFX/coin.wav" id="9_e5a85"]
+[ext_resource type="Resource" uid="uid://ceqaqufmindu" path="res://Resources/SoundLibraries/Default.tres" id="10_lcg1y"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2krvb"]
+atlas = ExtResource("8_vksem")
+region = Rect2(384, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fyjcq"]
+atlas = ExtResource("8_vksem")
+region = Rect2(128, 64, 32, 32)
+
+[resource]
+script = ExtResource("7_bbdv6")
+character_name = "Murioz"
+base_character_scene = ExtResource("3_86bdr")
+char_colour = Color(1, 0.421042, 0.166259, 1)
+custom_properties = {
+"PhysicsStyle": "Mario"
+}
+sound_library = ExtResource("10_lcg1y")
+character_id = 11
+power_sprite_extra_offsets = {
+"Cape": Vector2(0, 0),
+"PropellerBlade": Vector2(0, 0)
+}
+power_sprite_extra_replaces = {}
+power_state_script_replace = {}
+HUDTitle = ExtResource("2_nc3d4")
+HUDLetter = ExtResource("1_vksem")
+ending_portrait = ExtResource("5_uca12")
+ending_firework_mask = ExtResource("4_lr13r")
+map_sprites = ExtResource("6_cxpqp")
+selection_idle = SubResource("AtlasTexture_2krvb")
+selection_selected = SubResource("AtlasTexture_fyjcq")
+selection_sfx = ExtResource("9_e5a85")

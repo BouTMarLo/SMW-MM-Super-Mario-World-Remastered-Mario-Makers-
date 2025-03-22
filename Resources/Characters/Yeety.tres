@@ -1,11 +1,11 @@
 [gd_resource type="Resource" script_class="CharacterResource" load_steps=13 format=3 uid="uid://bviuk0drl51q3"]
 
-[ext_resource type="Texture2D" uid="uid://cjf28uhnsxedn" path="res://Assets/Sprites/Characters/Yellow/HUDIcon.png" id="1_ufvyx"]
-[ext_resource type="Texture2D" uid="uid://cvajyarcn0cru" path="res://Assets/Sprites/Characters/Yellow/HUDTitle.png" id="2_38rhv"]
+[ext_resource type="Texture2D" uid="uid://cyipdilrn0y8o" path="res://Assets/Sprites/Characters/Yeety/HUDIcon.png" id="1_ufvyx"]
+[ext_resource type="Texture2D" uid="uid://dljsirtjso1p" path="res://Assets/Sprites/Characters/Yeety/HUDTitle.png" id="2_38rhv"]
 [ext_resource type="PackedScene" uid="uid://cqw1qs0bt5s4o" path="res://Instances/Prefabs/Player.tscn" id="3_7ofvo"]
 [ext_resource type="Texture2D" uid="uid://dgbo3t71wv3bn" path="res://Assets/Sprites/Characters/Toad/FireworkMask.png" id="4_2y7sm"]
 [ext_resource type="Texture2D" uid="uid://cdu26cn1b0da4" path="res://Assets/Sprites/Characters/Toad/Ending.png" id="5_pcd8l"]
-[ext_resource type="SpriteFrames" uid="uid://6ef0hopfef6p" path="res://Resources/PlayerSpriteFrames/Toad/Map.tres" id="6_w6iui"]
+[ext_resource type="SpriteFrames" uid="uid://eck62hv2uqiq" path="res://Resources/PlayerSpriteFrames/Yeety/Map.tres" id="6_ufvyx"]
 [ext_resource type="Script" uid="uid://bnrkbpmp03s5q" path="res://Scripts/Classes/Resources/CharacterResource.gd" id="7_8ttpe"]
 [ext_resource type="Texture2D" uid="uid://cdku5o0ot8aht" path="res://Assets/Sprites/Characters/Yeety/Big.png" id="8_ufvyx"]
 [ext_resource type="AudioStream" uid="uid://c5t4v2hmyvxw1" path="res://Assets/Audio/SFX/coin.wav" id="9_3pxm2"]
@@ -39,7 +39,7 @@ HUDTitle = ExtResource("2_38rhv")
 HUDLetter = ExtResource("1_ufvyx")
 ending_portrait = ExtResource("5_pcd8l")
 ending_firework_mask = ExtResource("4_2y7sm")
-map_sprites = ExtResource("6_w6iui")
+map_sprites = ExtResource("6_ufvyx")
 selection_idle = SubResource("AtlasTexture_hefku")
 selection_selected = SubResource("AtlasTexture_o0fi0")
 selection_sfx = ExtResource("9_3pxm2")
